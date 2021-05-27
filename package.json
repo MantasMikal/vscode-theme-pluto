@@ -1,0 +1,35 @@
+{
+  "name": "vscode-theme-pluto",
+  "displayName": "Pluto",
+  "description": "Elegant dark color theme",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "npm run build:dark",
+    "build:dark": "node src/dark/build"
+  },
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "vscode",
+    "theme",
+    "pluto",
+    "dark"
+  ],
+  "publisher": "mantasmikal",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pluto",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pluto.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "mustache": "^4.2.0"
+  }
+}
