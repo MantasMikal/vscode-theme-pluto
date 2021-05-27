@@ -19,6 +19,7 @@
     "pluto",
     "dark"
   ],
+  "repository": "https://github.com/MantasMikal/vscode-theme-pluto",
   "publisher": "mantasmikal",
   "contributes": {
     "themes": [
