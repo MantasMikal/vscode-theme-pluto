@@ -101,8 +101,8 @@
     "panelTitle.activeBorder": "{{ ui.secondaryAccentAlt }}",
     "statusBar.background": "{{ ui.backgroundAlt }}",
     "statusBar.foreground": "{{ ui.lightText }}{{ alpha.med }}",
-    "statusBar.debuggingBackground": "{{ ui.tertiaryAccent }}",
-    "statusBar.debuggingForeground": "{{ ui.{{syntax.grayDark}}Text }}",
+    "statusBar.debuggingBackground": "{{ ui.accentAlt }}",
+    "statusBar.debuggingForeground": "{{ ui.lightText }}",
     "statusBar.noFolderBackground": "{{ ui.background }}",
     "statusBarItem.hoverBackground": "{{ ui.accent }}",
     "statusBarItem.prominentBackground": "{{ ui.accent }}",
@@ -151,14 +151,14 @@
       "name": "haskell variable generic-type",
       "scope": "variable.other.generic-type.haskell",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "haskell storage type",
       "scope": "storage.type.haskell",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -193,7 +193,7 @@
       "name": "support.function.std.rust",
       "scope": "support.function.std.rust",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
@@ -228,7 +228,7 @@
       "name": "regexp operator.quantifier",
       "scope": "keyword.operator.quantifier.regexp",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -263,7 +263,7 @@
       "name": "diff",
       "scope": "meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
@@ -305,7 +305,7 @@
       "name": "js/ts import keyword",
       "scope": "keyword.operator.expression.import",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
@@ -319,7 +319,7 @@
       "name": "math property js/ts",
       "scope": "support.constant.property.math",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -357,7 +357,7 @@
       "name": "java modifier.import",
       "scope": "meta.method.java",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
@@ -371,7 +371,7 @@
       "name": "java instanceof",
       "scope": "keyword.operator.instanceof.java",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
@@ -385,42 +385,42 @@
       "name": "operator logical",
       "scope": "keyword.operator.logical",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "operator bitwise",
       "scope": "keyword.operator.bitwise",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "operator channel",
       "scope": "keyword.operator.channel",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "support.constant.property-value.scss",
       "scope": "support.constant.property-value.scss,support.constant.property-value.css",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
       "name": "CSS/SCSS/LESS Operators",
       "scope": "keyword.operator.css,keyword.operator.scss,keyword.operator.less",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "css color standard name",
       "scope": "support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -434,14 +434,14 @@
       "name": "css attribute-name.id",
       "scope": "support.constant.color.w3c-standard-color-name.css",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
       "name": "css property-name",
       "scope": "support.type.vendored.property-name.css",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
@@ -469,7 +469,7 @@
       "name": "js/ts json",
       "scope": "support.constant.json",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -496,14 +496,14 @@
       "name": "js/ts support.variable.property.process",
       "scope": "support.variable.property.process",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
       "name": "js console function",
       "scope": "entity.name.function,support.function.console",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
@@ -517,7 +517,7 @@
       "name": "keyword.operator.sigil.rust",
       "scope": "keyword.operator.sigil.rust",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
@@ -531,7 +531,7 @@
       "name": "js dom",
       "scope": "support.type.object.dom",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
@@ -545,14 +545,14 @@
       "name": "keyword.operator",
       "scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "C operator assignment",
       "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
@@ -566,49 +566,49 @@
       "name": "Other punctuation .c",
       "scope": "punctuation.separator.c,punctuation.separator.cpp",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "C type posix-reserved",
       "scope": "support.type.posix-reserved.c,support.type.posix-reserved.cpp",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "keyword.operator.sizeof.c",
       "scope": "keyword.operator.sizeof.c,keyword.operator.sizeof.cpp",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "python parameter",
       "scope": "variable.parameter.function.language.python",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
       "name": "python type",
       "scope": "support.type.python",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "python logical",
       "scope": "keyword.operator.logical.python",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "pyCs",
       "scope": "variable.parameter.function.python",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -622,14 +622,14 @@
       "name": "python function-call.generic",
       "scope": "meta.function-call.generic.python",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
       "name": "python placeholder reset to normal string",
       "scope": "constant.character.format.placeholder.other.python",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -643,14 +643,14 @@
       "name": "Compound Assignment Operators",
       "scope": "keyword.operator.assignment.compound",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "Compound Assignment Operators js/ts",
       "scope": "keyword.operator.assignment.compound.js,keyword.operator.assignment.compound.ts",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
@@ -706,7 +706,7 @@
       "name": "Packages",
       "scope": "token.package.keyword",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
@@ -725,7 +725,7 @@
         "variable.function"
       ],
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
@@ -778,28 +778,28 @@
       "name": "Keyword Control",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "Control Elements",
       "scope": "control.elements, keyword.operator.less",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
       "name": "Methods",
       "scope": "keyword.other.special-method",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
@@ -827,7 +827,7 @@
       "name": "Support",
       "scope": "support.function",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
@@ -848,7 +848,7 @@
       "name": "Support type",
       "scope": "support.constant.font-name",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -869,28 +869,28 @@
       "name": "Constant other symbol",
       "scope": "constant.other.symbol",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "Integers",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
       "name": "Constants",
       "scope": "constant",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
       "name": "Constants",
       "scope": "punctuation.definition.constant",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -904,7 +904,7 @@
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -912,7 +912,7 @@
       "scope": "entity.other.attribute-name.id",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
@@ -920,7 +920,7 @@
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -941,7 +941,7 @@
       "name": "Headings",
       "scope": "markup.heading punctuation.definition.heading, entity.name.section",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
@@ -955,7 +955,7 @@
       "name": "Bold",
       "scope": "markup.bold,todo.bold",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -969,14 +969,14 @@
       "name": "markup Italic",
       "scope": "markup.italic, punctuation.definition.italic,todo.emphasis",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "emphasis md",
       "scope": "emphasis md",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
@@ -1011,7 +1011,7 @@
       "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition Bold",
       "scope": "punctuation.definition.bold.markdown",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -1064,28 +1064,28 @@
       "name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
       "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Link Title/Description",
       "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
       "name": "Regular Expressions",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
@@ -1099,7 +1099,7 @@
       "name": "Embedded",
       "scope": "punctuation.section.embedded.begin,punctuation.section.embedded.end",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
@@ -1162,7 +1162,7 @@
       "name": "Source Json Meta Structure Dictionary Json > Constant Language Json,source Json Meta Structure Array Json > Constant Language Json",
       "scope": "source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
@@ -1183,14 +1183,14 @@
       "name": "laravel blade tag",
       "scope": "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "laravel blade @",
       "scope": "text.html.laravel-blade source.php.embedded.line.html support.constant.laravel-blade",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
@@ -1204,14 +1204,14 @@
       "name": "error suppression",
       "scope": "keyword.operator.error-control.php",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "php instanceof",
       "scope": "keyword.operator.type.php",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
@@ -1246,7 +1246,7 @@
       "name": "php call-function",
       "scope": "meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
@@ -1260,63 +1260,63 @@
       "name": "support php constants",
       "scope": "support.constant.core.rust",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
       "name": "support php constants",
       "scope": "support.constant.ext.php,support.constant.std.php,support.constant.core.php,support.constant.parser-token.php",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
       "name": "php goto",
       "scope": "entity.name.goto-label.php,support.other.php",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
       "name": "php logical/bitwise operator",
       "scope": "keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "php regexp operator",
       "scope": "keyword.operator.regexp.php",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "php comparison",
       "scope": "keyword.operator.comparison.php",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "php heredoc/nowdoc",
       "scope": "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "python function decorator @",
       "scope": "meta.function.decorator.python",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
       "name": "python function support",
       "scope": "support.token.decorator.python,meta.function.decorator.identifier.python",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
@@ -1344,28 +1344,28 @@
       "name": "constant.language.symbol.ruby",
       "scope": "constant.language.symbol.ruby",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "rgb-value",
       "scope": "rgb-value",
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "rgb value",
       "scope": "inline-color-decoration rgb-value",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
       "name": "rgb value less",
       "scope": "less rgb-value",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -1406,13 +1406,13 @@
     {
       "scope": "token.info-token",
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
       "scope": "token.warn-token",
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -1424,7 +1424,7 @@
     {
       "scope": "token.debug-token",
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
@@ -1435,7 +1435,7 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
@@ -1449,14 +1449,14 @@
       "name": "Import module JS",
       "scope": ["keyword.operator.module"],
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "js Flowtype",
       "scope": ["support.type.type.flowtype"],
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
@@ -1512,7 +1512,7 @@
       "name": "js operator.assignment",
       "scope": ["keyword.operator.assignment"],
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
@@ -1529,7 +1529,7 @@
         "keyword.operator.address.go"
       ],
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
@@ -1543,14 +1543,14 @@
       "name": "elm prelude",
       "scope": ["support.type.prelude.elm"],
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
       "name": "elm constant",
       "scope": ["support.constant.elm"],
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -1574,7 +1574,7 @@
         "entity.other.attribute-name.pseudo-class"
       ],
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
@@ -1595,7 +1595,7 @@
       "name": "Clojure constants",
       "scope": ["constant.keyword.clojure"],
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
@@ -1637,7 +1637,7 @@
       "name": "Groovy Methods",
       "scope": ["meta.method.groovy"],
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
@@ -1700,7 +1700,7 @@
       "name": "heading 2, callable",
       "scope": ["entity.name.class.xi"],
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
@@ -1714,14 +1714,14 @@
       "name": "heading 4, type, class, interface",
       "scope": ["constant.regexp.xi"],
       "settings": {
-        "foreground": "{{syntax.lavender}}{{alpha.highMed}}"
+        "foreground": "{{syntax.lavender}}"
       }
     },
     {
       "name": "heading 5, enums, preprocessor, constant, decorator",
       "scope": ["keyword.control.xi"],
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
@@ -1749,21 +1749,21 @@
       "name": "link",
       "scope": ["constant.character.xi"],
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
       "name": "accent",
       "scope": ["accent.xi"],
       "settings": {
-        "foreground": "{{syntax.malibu}}{{syntax.highMed}}"
+        "foreground": "{{syntax.malibu}}"
       }
     },
     {
       "name": "wikiword",
       "scope": ["wikiword.xi"],
       "settings": {
-        "foreground": "{{syntax.apricot}}{{syntax.highMed}}"
+        "foreground": "{{syntax.apricot}}"
       }
     },
     {
@@ -1836,7 +1836,7 @@
         "constant.language.symbol.double-quoted.elixir"
       ],
       "settings": {
-        "foreground": "{{syntax.turquoise}}{{alpha.highMed}}"
+        "foreground": "{{syntax.turquoise}}"
       }
     },
     {
