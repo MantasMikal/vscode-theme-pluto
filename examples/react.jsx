@@ -6,7 +6,7 @@ const Example = ({ title }) => {
 
   useEffect(() => {
     document.title = `You clicked ${count} times`
-  });
+  })
 
   return (
     <div>
