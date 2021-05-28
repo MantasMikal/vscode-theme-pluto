@@ -18,7 +18,7 @@
     "pluto",
     "dark"
   ],
-  "icon": "./images/logo.png",
+  "icon": "images/logo.png",
   "repository": "https://github.com/MantasMikal/vscode-theme-pluto",
   "publisher": "mantasmikal",
   "contributes": {
