@@ -2,7 +2,7 @@
   "name": "vscode-theme-pluto",
   "displayName": "Pluto",
   "description": "Dark VS Code color theme",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "scripts": {
     "build": "node src/build"
   },
@@ -16,11 +16,14 @@
     "vscode",
     "theme",
     "pluto",
-    "dark"
+    "dark",
+    "warm",
+    "elegant"
   ],
   "icon": "images/logo.png",
   "repository": "https://github.com/MantasMikal/vscode-theme-pluto",
   "publisher": "mantasmikal",
+  "license": "MIT",
   "contributes": {
     "themes": [
       {
@@ -32,5 +35,8 @@
   },
   "devDependencies": {
     "mustache": "^4.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/MantasMikal/vscode-theme-pluto/issues"
   }
 }

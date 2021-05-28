@@ -2,6 +2,9 @@
 
 All notable changes to the Pluto VS Code theme will be documented in this file.
 
+## [0.1.0]
+
+- Release
 ## [0.0.5]
 
 - Added description
