@@ -1,7 +1,10 @@
 # Change Log
 
-All notable changes to the "pluto" extension will be documented in this file.
+All notable changes to the Pluto VS Code theme will be documented in this file.
 
+## [0.0.5]
+
+- Added description
 ## [0.0.4]
 
 - Increases contrast of scrollbars
