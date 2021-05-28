@@ -2,7 +2,7 @@
   "name": "vscode-theme-pluto",
   "displayName": "Pluto",
   "description": "Dark VS Code color theme",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "scripts": {
     "build": "node src/build"
   },
