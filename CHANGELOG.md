@@ -2,6 +2,10 @@
 
 All notable changes to the "pluto" extension will be documented in this file.
 
+## [0.0.4]
+
+- Increases contrast of scrollbars
+- Makes comment color darker
 ## [0.0.3]
 
 - Updates accent colors

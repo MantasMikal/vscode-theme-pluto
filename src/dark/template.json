@@ -18,8 +18,8 @@
     "inputValidation.errorBorder": "{{ ui.negative }}{{ alpha.none }}",
     "scrollbar.shadow": "{{ ui.shadow }}",
     "scrollbarSlider.activeBackground": "{{ ui.accentAlt }}{{ alpha.med }}",
-    "scrollbarSlider.background": "{{ ui.accentAlt }}{{ alpha.low }}",
-    "scrollbarSlider.hoverBackground": "{{ ui.accentAlt }}{{ alpha.medLow }}",
+    "scrollbarSlider.background": "{{ ui.accentAlt }}{{ alpha.med }}",
+    "scrollbarSlider.hoverBackground": "{{ ui.accentAlt }}{{ alpha.highMid }}",
     "badge.foreground": "{{ ui.lightText }}",
     "badge.background": "{{ ui.accent }}",
     "progressBar.background": "{{ ui.secondaryAccentAlt }}",
@@ -249,7 +249,7 @@
       "name": "Comment Markup Link",
       "scope": "comment markup.link",
       "settings": {
-        "foreground": "{{syntax.grayDark}}"
+        "foreground": "{{syntax.grayDark}}{{alpha.med}}"
       }
     },
     {
@@ -1742,7 +1742,7 @@
       "name": "comments",
       "scope": ["beginning.punctuation.definition.list.markdown.xi"],
       "settings": {
-        "foreground": "{{syntax.lightWhite}}"
+        "foreground": "{{syntax.lightWhite}}{{alpha.highMed}}"
       }
     },
     {
@@ -1813,7 +1813,7 @@
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
       "settings": {
-        "foreground": "{{syntax.lightWhite}}"
+        "foreground": "{{syntax.lightWhite}}{{alpha.highMed}}"
       }
     },
     {
